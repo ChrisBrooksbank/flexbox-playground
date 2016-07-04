@@ -4,8 +4,10 @@
 	font-size:100px;
 	text-align:center;
 	text-shadow: 4px 4px 0;
+	width:300px;
+	width:33.333333333%;
+	flex:1;
 }
-
 
 .box1 { background: #1abc9c; }
 .box2 { background: #3498db; }
@@ -23,4 +25,6 @@
 	display:flex;
 	border:10px solid goldenrod;
 	height: 100vh;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
